@@ -1,4 +1,4 @@
-# trabalhoPratico2  
+# trabalho Pratico 2    
 
 ## Table of contents  
 
