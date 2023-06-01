@@ -1,0 +1,77 @@
+
+
+#pesquisa {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    gap: 3%;
+    width: 8%;
+    font-size: larger;
+    height: 5vh;
+    border-radius: 6px;
+    border: none;
+    background-color: white;
+}
+
+#pesquisa:hover {
+    cursor: pointer;
+    transition: 100ms;
+    background-color: rgb(219, 217, 217);
+}
+
+#iconSearch {
+    width: 25px;
+    height: 25px;
+    contain: content;    
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+#divFilter{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: end;
+    margin: 5px;
+}
+
+#divFilter label{
+    font-size: large;
+    margin-right: 15px;
+}
+
+#divFilter select{
+    padding: 5px;
+    border: none;
+    border-radius: 6px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    bottom: 0;
+    background-color: #2055a5;
+    width: 100%;
+    height: 25vh;
+    flex: 1;
+}
+
+.icons {
+    height: 5vh;
+}
+
+#socialMedia {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}

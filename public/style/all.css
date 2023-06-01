@@ -1,0 +1,121 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    top: 0;
+    position: sticky;
+    height: 10vh;
+    background-color: #2055a5;
+    padding: 0 15px 0 15px;
+    z-index: 1;
+}
+
+#logo {
+    height: 85%;
+    contain: content;
+}
+
+#cabulas {
+    color: white; 
+    font-size: 40px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+#containerHeader {
+    position: relative;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#products {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+    margin: 30px 10px;
+    width: 20%;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    gap: 10px;
+}
+
+.fa-star,
+.fa-star-o,
+.fa-star-half {
+    color: #2055a5;
+}
+
+.name {
+    font-size: medium;
+    display: flex;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    white-space: normal;
+    word-wrap: break-word;
+    
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    flex: 1;
+}
+
+.img {
+    width: 70%;
+}
+
+.price {
+    align-self: center;
+    color: green;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.description {
+    font-size: medium;
+}
+
+.maisDetalhes{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: medium;
+    color: #ffffff;
+    background-color: #2055a5;
+}
+
+.maisDetalhes:hover{
+    background-color: #128ed6;
+    transition: 100ms;
+    cursor: pointer;
+}

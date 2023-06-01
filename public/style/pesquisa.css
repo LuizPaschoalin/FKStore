@@ -1,0 +1,136 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    /* height: 100vh; */
+    width: 100%;
+    background-color: gray;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    position: sticky;
+    height: 10vh;
+    background-color: #2055a5;
+    padding: 0 15px 0 15px;
+}
+
+#logo {
+    height: 20vh;
+}
+
+#containerHeader {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+#searchBar {
+    display: flex;
+    margin-top: 2%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+#searchBar input {
+    border: none;
+    border-radius: 6px 0px 0px 6px;
+    height: 4vh;
+    font-size: larger;
+    padding: 6.27px;
+    width: 100%;
+}
+
+#searchBar input:focus {
+    outline: none;
+}
+
+#searchBar button {
+    padding: 8px;
+    font-size: larger;
+    border: none;
+    border-radius: 0px 6px 6px 0px;
+}
+
+#produtos {
+    display: flex;
+    margin-top: 10px;
+    font-size: 1.3em;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+#error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#searchError {
+    height: 30vh;
+}
+
+footer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    bottom: 0;
+    background-color: #2055a5;
+    width: 100%;
+    height: 25vh;
+}
+
+.icons {
+    height: 5vh;
+}
+
+#socialMedia {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+
+.fa-star,
+.fa-star-o,
+.fa-star-half {
+    color: #e0a31f;
+}
+
+#btnPesquisar{
+    border-radius: 6px 0px 0px 6px;
+    height: 43px;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: #2055a5;
+}
+
+#btnPesquisar:hover{
+    cursor: pointer;
+    transition: 100ms;
+    background-color: #128ed6;
+}
+
