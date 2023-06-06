@@ -119,3 +119,15 @@ header {
     transition: 100ms;
     cursor: pointer;
 }
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#socialMedia {
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+}
