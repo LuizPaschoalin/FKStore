@@ -50,6 +50,7 @@ main {
     width: 50%;
     justify-content: center;
     align-items: center;
+    height: 50%;
 }
 
 #searchBar input {
@@ -60,6 +61,7 @@ main {
     padding: 6.27px;
     width: 100%;
     background-color: #2055a5;
+    height: 50%;
 }
 
 #searchBar input:focus {
@@ -71,6 +73,7 @@ main {
     font-size: larger;
     border: none;
     border-radius: 0px 6px 6px 0px;
+    height: 50%;
 }
 
 #produtos {
@@ -113,7 +116,7 @@ main {
 
 #btnPesquisar{
     border-radius: 6px 0px 0px 6px;
-    height: 43px;
+    height: 50%px;
     font-size: larger;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #2055a5;
@@ -130,7 +133,7 @@ main {
     color: white;
 }
 
-#inputPesquisa{
+#searchBar #inputPesquisa{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
+    height: 50%;
 }
