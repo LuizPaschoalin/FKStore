@@ -55,16 +55,6 @@ main {
     border-radius: 6px;
 }
 
-footer {
-    display: flex;
-    flex-direction: row;
-    bottom: 0;
-    background-color: #2055a5;
-    width: 100%;
-    height: 25vh;
-    flex: 1;
-}
-
 .icons {
     height: 5vh;
 }
