@@ -124,15 +124,6 @@ main {
     color: #e0a31f;
 }
 
-footer {
-    display: flex;
-    flex-direction: row;
-    bottom: 0;
-    background-color: #2055a5;
-    width: 100%;
-    height: 25vh;
-}
-
 .icons {
     height: 5vh;
 }
