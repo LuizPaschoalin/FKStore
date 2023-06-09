@@ -2,6 +2,12 @@ const btnPesquisa = document.querySelector("#btnPesquisar");
 const inputPesquisa = document.querySelector("#inputPesquisa");
 const products = document.querySelector("#produtos");
 
+const btnPesquisa = document.querySelector("#pesquisa");
+btnPesquisa.addEventListener("click", () => {
+  window.location.href = "../index.html";
+});
+
+
 let lista = []; //array para armazenar a lista de produtos
 
 //event listener para realizar a pesquisa no click

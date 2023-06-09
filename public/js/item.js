@@ -1,6 +1,11 @@
 const urlParams = new URLSearchParams(window.location.search);
 const itemId = urlParams.get("id");
 
+const btnPesquisa = document.querySelector("#pesquisa");
+btnPesquisa.addEventListener("click", () => {
+  window.location.href = "../../src/pages/pesquisa.html";
+});
+
 fetch(`https://fakestoreapi.com/products/${itemId}`)
   .then((res) => res.json())
   .then((json) => {

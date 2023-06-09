@@ -136,4 +136,5 @@ main {
 #searchBar #inputPesquisa{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: 50%;
+    color: white;
 }
