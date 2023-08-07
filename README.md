@@ -1,4 +1,4 @@
-# trabalho Pratico 2    
+# Primeiro Contato com uma API   
 
 ## Table of contents  
 
@@ -29,3 +29,5 @@ O projeto é construido em html, css e javascript utilizando ajax em pequenas fu
 * Demais dados referentes ao produto retirados da api
 
 ### Tela de pesquisa  
+
+* Uma barra de pesquisa funcional que ao digitar o nome do produto ela busca o produto com sua descrição e preço.
